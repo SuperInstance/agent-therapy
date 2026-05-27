@@ -1,1 +1,12 @@
 node_modules/
+__pycache__/
+*.pyc
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+*.jsonl
+
+# Old worker files
+wrangler.toml
+src/worker.ts
